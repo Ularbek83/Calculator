@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "%":
                 if (isOperationClicked != true) {
-                    Log.e("ololo", "onOperationClic: " + isOperationClic + "  " + isProcentClicked);
+                    Log.e("ololo", "onOperationClic: " + isOperationClic
+                            + "  " + isProcentClicked);
                     firstValue = Double.valueOf(textView.getText().toString());
                     sum = firstValue / 100;
                     textView.setText(sum.toString());
